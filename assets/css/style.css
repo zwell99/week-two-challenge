@@ -112,26 +112,26 @@ body {
 /* Sets parameters for the contact me section */
 .contact-me {
     padding: 20px;
+    padding-bottom: 100px;
     background-color: grey;
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .contact-me h2 {
     float: left;
     margin-left: -20px;
-    padding: 40px;
-    padding-right: 86px;
+    padding: 10px;
+    padding-left: 50px;
     font-size: 50px;
-    background-color: grey;
+    background-color: lightgrey;
 }
 
+
 .contact-me div {
-    margin-right: -20px;
-    padding: 45px;
-    padding-right: 270px;
-    padding-bottom: 59px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 25px;
     font-size: 30px;
     background-color: grey;
 }
