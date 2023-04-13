@@ -53,20 +53,99 @@ body {
 .about-me h2 {
     float: left;
     padding: 20px;
+    font-size: 50px;
 }
 
 .about-me p {
     padding: 20px;
+    width: 500px;
+    display: inline-block;
 }
 
 /* Sets parameters for the work section */
 .work h2 {
     float: left;
     padding: 20px;
+    font-size: 50px;
+}
+
+.work .projects {
+    display: inline-block;
+}
+
+.work .projects ul li img {
+    height: 100px;
+    width: 100px;
+}
+
+#larger-img {
+    height: 400px;
+    width: 400px;
+}
+
+.work .projects ul li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.work .projects ul li .img1-text {
+    position: absolute;
+    bottom: 8px;
+    left: 170px;
+    font-size: 30px;
+}
+
+.work .projects ul li .img2-text {
+    position: absolute;
+    bottom: -100px;
+    left: 170px;
+    font-size: 15px;
+}
+
+.work .projects ul li .img3-text {
+    position: absolute;
+    bottom: -200px;
+    left: 170px;
+    font-size: 15px;
 }
 
 /* Sets parameters for the contact me section */
+.contact-me {
+    padding: 20px;
+    background-color: grey;
+    color: white;
+}
+
 .contact-me h2 {
     float: left;
-    padding: 20px;
+    margin-left: -20px;
+    padding: 40px;
+    padding-right: 86px;
+    font-size: 50px;
+    background-color: grey;
+}
+
+.contact-me div {
+    margin-right: -20px;
+    padding: 45px;
+    padding-right: 270px;
+    padding-bottom: 59px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: grey;
+}
+
+.contact-me div ul {
+    list-style-type: none;
+}
+
+.contact-me div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.contact-me div ul li a {
+    color: #ffffff;
+    text-decoration: none;
 }
